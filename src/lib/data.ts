@@ -48,52 +48,49 @@ export const SERVICES = [
 
 export const INDUSTRIES = [
   {
+    name: "Construction & Contractors",
+    cat: "Construction & Trades",
+    desc: "General contractors, subcontractors, and the full range of specialty trades — including the high-hazard classes most markets avoid. Roofing, restoration, demolition, asbestos abatement, environmental remediation, landscaping, grounds maintenance, woodworking, and custom fabrication. If it's built or maintained with hands, we can place it.",
+  },
+  {
     name: "Security & Guard Services",
     cat: "High-Hazard",
-    desc: "Armed and unarmed guards, patrol, and event security — classes most carriers decline. We place general liability, professional liability, and workers' compensation for guard payrolls that standard markets won't touch.",
+    desc: "Armed and unarmed guards, patrol, and event security — classes most carriers decline. We place general liability, professional liability, and workers' compensation for guard payrolls across single-state and multi-jurisdiction operations.",
   },
   {
-    name: "Construction & General Contractors",
-    cat: "Construction & Trades",
-    desc: "General contractors, subcontractors, and artisan trades — including new-construction and residential exposures, with wrap-up and OCIP experience for larger projects.",
-  },
-  {
-    name: "Landscaping & Grounds Maintenance",
-    cat: "Construction & Trades",
-    desc: "Seasonal payrolls, snow-and-ice operations, and chemical-application exposures structured for year-round, multi-state coverage.",
-  },
-  {
-    name: "Woodworking & Custom Manufacturing",
-    cat: "Construction & Trades",
-    desc: "Dust, finishing, and product-liability exposures for cabinet shops, millwork, and custom fabricators that need a market comfortable with the hazard.",
-  },
-  {
-    name: "Healthcare & Medical Staffing",
+    name: "Healthcare & Human Services",
     cat: "Healthcare & Human Services",
-    desc: "Staffing agencies, home health, and allied providers — with professional liability and abuse/molestation coverage built into the program.",
+    desc: "The full continuum of care and the organizations that support it — hospitals, nursing homes, assisted living facilities, group homes, home health agencies, adult day programs, hospice, social service organizations, and non-profits of all kinds. We structure programs that address professional liability, abuse and molestation, and the regulatory complexity that comes with serving vulnerable populations.",
   },
   {
-    name: "Behavioral Health & Human Services",
-    cat: "Healthcare & Human Services",
-    desc: "Residential, outpatient, and social-service organizations with sexual-abuse, professional, and management liability needs that demand specialty underwriting.",
+    name: "Staffing — All Classes",
+    cat: "Staffing",
+    desc: "Every staffing sector — medical, allied health, administrative, light industrial, skilled trades, and IT. We place general liability, professional liability, workers' compensation, and employment practices coverage for staffing agencies placing workers across industries and jurisdictions, including high-volume and multi-state programs.",
+  },
+  {
+    name: "Manufacturing",
+    cat: "Manufacturing",
+    desc: "Light and heavy manufacturing of all kinds — food processing, metal fabrication, plastics, electronics, chemical manufacturing, printing, and more. We address product liability, commercial property, workers' compensation, and the equipment breakdown and business interruption exposures that define a production floor.",
   },
   {
     name: "Transportation & Commercial Auto Fleets",
     cat: "Transportation",
-    desc: "Local and long-haul fleets, high-radius operations, and accounts carrying large-loss auto histories that need a specialty market and a safety narrative.",
+    desc: "Local and long-haul fleets, high-radius operations, and accounts carrying large-loss auto histories that need a specialty market and a credible safety narrative.",
   },
   {
     name: "Professional Services",
     cat: "Professional",
-    desc: "Errors & omissions and management liability for firms whose core exposure is their expertise and advice rather than their premises.",
+    desc: "Errors & omissions and management liability for firms whose core exposure is their expertise — attorneys, accountants, consultants, engineers, architects, real estate professionals, insurance agents, technology companies, marketing and PR agencies, and financial advisors. We match coverage to the specific liability profile of each profession rather than fitting every firm into the same policy form.",
   },
 ];
 
 export const FILTERS = [
   "All",
-  "High-Hazard",
   "Construction & Trades",
+  "High-Hazard",
   "Healthcare & Human Services",
+  "Staffing",
+  "Manufacturing",
   "Transportation",
   "Professional",
 ];

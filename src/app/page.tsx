@@ -238,7 +238,7 @@ export default function Home() {
                 maxWidth: "18ch",
               }}
             >
-              Complex, multi-state, high-hazard — that&apos;s our sweet spot.
+              From clean commercial accounts to complex, high-hazard placements — we cover it all.
             </h2>
             <p
               style={{
