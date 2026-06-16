@@ -78,10 +78,11 @@ export default function Home() {
                 margin: "0 0 24px",
               }}
             >
-              U.S. National is a boutique commercial lines brokerage built for
-              the accounts standard markets decline — complex, multi-state,
-              high-hazard risk that demands a real underwriter relationship and a
-              broker who knows the file.
+              U.S. National is a boutique commercial lines brokerage that places
+              commercial coverage across the full spectrum — from straightforward
+              business accounts to the complex, multi-state, and high-hazard
+              risks that demand a real underwriter relationship and a broker who
+              knows the file.
             </p>
             <p
               style={{
@@ -91,10 +92,11 @@ export default function Home() {
                 margin: 0,
               }}
             >
-              We specialize in the accounts others won&apos;t write. When the
-              answer everywhere else is &ldquo;no,&rdquo; our job is to find the
-              market that says yes — and structure the program correctly the
-              first time.
+              We specialize in getting coverage placed correctly the first time
+              — whether that&apos;s a clean commercial account that deserves more
+              attention than a call center can give it, or the hard-to-place risk
+              that no one else will touch. Either way, you talk to a broker who
+              knows the file.
             </p>
           </ScrollReveal>
         </div>
@@ -247,8 +249,9 @@ export default function Home() {
                 margin: 0,
               }}
             >
-              We build programs for the industries other brokers route around. A
-              sample of the classes we place every day:
+              We build programs across a wide range of industries — including
+              many of the classes other brokers route around. A sample of the
+              accounts we place every day:
             </p>
           </ScrollReveal>
           <ScrollReveal
@@ -411,7 +414,7 @@ export default function Home() {
                 letterSpacing: "-0.01em",
               }}
             >
-              Have an account no one will write?
+              Ready to place your commercial program?
             </h2>
             <p
               style={{
@@ -422,8 +425,9 @@ export default function Home() {
                 margin: "0 auto 44px",
               }}
             >
-              Send us the hard one. Boutique service, national market access —
-              and a broker who picks up the phone.
+              Whether it&apos;s a standard commercial account or the hardest file
+              you&apos;ve ever tried to place — boutique service, national market
+              access, and a broker who picks up the phone.
             </p>
             <Link
               href="/contact"

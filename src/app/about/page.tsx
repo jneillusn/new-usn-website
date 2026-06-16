@@ -17,7 +17,7 @@ const BLOCKS = [
   },
   {
     label: "Philosophy",
-    body: "The market for easy accounts is crowded. We chose the other one — complex, multi-state, high-hazard — because that is where a broker's judgment actually changes the outcome.",
+    body: "We believe every commercial account deserves a broker who actually reads the file. We're built to handle the full range — and when an account is complex, multi-state, or high-hazard, that's where our market access and underwriting relationships change the outcome.",
   },
 ];
 
@@ -55,7 +55,7 @@ export default function AboutPage() {
                 color: "#0A1628",
               }}
             >
-              A brokerage built around the hard accounts, on purpose.
+              A brokerage built around doing it right, not just doing what&apos;s easy.
             </h1>
           </ScrollReveal>
         </div>
@@ -125,9 +125,10 @@ export default function AboutPage() {
                 }}
               >
                 U.S. National Insurance LLC is a Scottsdale-based commercial
-                lines brokerage focused on a narrow promise: place the accounts
-                standard markets won&apos;t, and service them like they&apos;re the only
-                file we have.
+                lines brokerage with a singular focus: place every account
+                correctly — whether it&apos;s a clean commercial risk or one
+                that&apos;s been declined everywhere else — and service it like
+                it&apos;s the only file we have.
               </p>
               <p
                 style={{

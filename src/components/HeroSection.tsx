@@ -74,7 +74,7 @@ export default function HeroSection() {
             animation: "fadeUp 800ms ease 1200ms both",
           }}
         >
-          Boutique expertise. National market access. Built for complex accounts.
+          Boutique expertise. National market access. Built for commercial accounts of every size and complexity.
         </p>
 
         <Link

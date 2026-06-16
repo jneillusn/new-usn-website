@@ -2,12 +2,12 @@ export const SERVICES = [
   {
     name: "Workers' Compensation",
     desc: "Multi-state programs, assigned-risk alternatives, and experience-mod strategy.",
-    body: "From single-state policies to complex multi-jurisdiction programs, we structure coverage around your class codes, payroll, and loss history — including assigned-risk alternatives and group programs for accounts standard markets decline.",
+    body: "From single-state policies to complex multi-jurisdiction programs, we structure coverage around your class codes, payroll, and loss history — including assigned-risk alternatives and group programs for accounts that need specialty market access.",
   },
   {
     name: "General Liability",
     desc: "Primary GL for high-hazard and contractor classes.",
-    body: "We place primary general liability for the trades and operations other brokers route to admitted-only markets — artisan contractors, security firms, and habitational risk among them — with the surplus-lines access those classes require.",
+    body: "We place primary general liability across a wide range of trade and contractor classes — including the operations that require surplus-lines access, such as artisan contractors, security firms, and habitational risk.",
   },
   {
     name: "Commercial Auto",

@@ -70,8 +70,8 @@ export default function Footer() {
                 maxWidth: "34ch",
               }}
             >
-              Boutique service. National market access. Built for the complex
-              commercial accounts other brokers won&apos;t write.
+              Boutique service. National market access. Built for commercial
+              accounts that deserve more than a call center.
             </p>
             <p
               style={{ fontSize: 13, color: "rgba(255,255,255,0.4)", margin: 0 }}
