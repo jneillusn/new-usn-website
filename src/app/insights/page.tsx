@@ -1,3 +1,5 @@
+"use client";
+
 import ScrollReveal from "@/components/ScrollReveal";
 import { ARTICLES } from "@/lib/data";
 
