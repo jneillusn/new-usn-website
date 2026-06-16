@@ -649,7 +649,7 @@ export default function ContactPage() {
                   Phone
                 </div>
                 <div style={{ fontSize: 18, color: "#0A1628" }}>
-                  480-522-4864
+                  877.885.1780
                 </div>
               </div>
               <div>
@@ -665,7 +665,7 @@ export default function ContactPage() {
                   Email
                 </div>
                 <div style={{ fontSize: 18, color: "#0A1628" }}>
-                  jneill@usnational.com
+                  service@usnational.com
                 </div>
               </div>
             </div>

@@ -179,9 +179,9 @@ export default function Footer() {
                 marginTop: 14,
               }}
             >
-              480-522-4864
+              877.885.1780
               <br />
-              jneill@usnational.com
+              service@usnational.com
             </div>
           </div>
         </div>
