@@ -491,7 +491,7 @@ export default function ContactPage() {
                 color: "#ffffff",
               }}
             >
-              Send us the hard one.
+              Let&apos;s build the right program for you.
             </h1>
             <p
               style={{
