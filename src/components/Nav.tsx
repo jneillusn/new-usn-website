@@ -66,9 +66,9 @@ export default function Nav() {
         >
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/usn-logo.png"
+            src={solid ? "/usn-seal-navy.svg" : "/usn-seal-gold.svg"}
             alt="U.S. National Insurance"
-            style={{ height: 52, width: "auto" }}
+            style={{ height: 44, width: "auto", transition: "opacity 450ms ease" }}
           />
         </Link>
 

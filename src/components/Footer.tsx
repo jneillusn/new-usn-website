@@ -34,9 +34,9 @@ export default function Footer() {
             <div style={{ marginBottom: 22 }}>
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/usn-logo.png"
+                src="/usn-seal-gold.svg"
                 alt="U.S. National Insurance"
-                style={{ height: 72, width: "auto" }}
+                style={{ height: 64, width: "auto" }}
               />
             </div>
             <p
