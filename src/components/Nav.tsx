@@ -61,35 +61,15 @@ export default function Nav() {
           style={{
             textDecoration: "none",
             display: "flex",
-            alignItems: "baseline",
-            gap: 9,
+            alignItems: "center",
           }}
         >
-          <span
-            style={{
-              fontFamily: "var(--font-cormorant), Georgia, serif",
-              fontSize: 25,
-              fontWeight: 600,
-              color: fg,
-              letterSpacing: "0.01em",
-              transition: "color 450ms ease",
-            }}
-          >
-            U.S. National
-          </span>
-          <span
-            style={{
-              fontFamily: "var(--font-inter), sans-serif",
-              fontSize: 9.5,
-              fontWeight: 600,
-              letterSpacing: "0.26em",
-              textTransform: "uppercase",
-              color: "#C9A84C",
-              paddingBottom: 2,
-            }}
-          >
-            Insurance
-          </span>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/usn-logo.png"
+            alt="U.S. National Insurance"
+            style={{ height: 52, width: "auto" }}
+          />
         </Link>
 
         <nav style={{ display: "flex", alignItems: "center", gap: 38 }}>

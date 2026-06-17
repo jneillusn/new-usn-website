@@ -31,35 +31,13 @@ export default function Footer() {
         >
           {/* Col 1 — Brand */}
           <div>
-            <div
-              style={{
-                display: "flex",
-                alignItems: "baseline",
-                gap: 9,
-                marginBottom: 22,
-              }}
-            >
-              <span
-                style={{
-                  fontFamily: "var(--font-cormorant), Georgia, serif",
-                  fontSize: 25,
-                  fontWeight: 600,
-                  color: "#ffffff",
-                }}
-              >
-                U.S. National
-              </span>
-              <span
-                style={{
-                  fontSize: 9.5,
-                  fontWeight: 600,
-                  letterSpacing: "0.26em",
-                  textTransform: "uppercase",
-                  color: "#C9A84C",
-                }}
-              >
-                Insurance
-              </span>
+            <div style={{ marginBottom: 22 }}>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/usn-logo.png"
+                alt="U.S. National Insurance"
+                style={{ height: 72, width: "auto" }}
+              />
             </div>
             <p
               style={{
