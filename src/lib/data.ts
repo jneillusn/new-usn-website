@@ -54,7 +54,7 @@ export const INDUSTRIES = [
   },
   {
     name: "Security & Guard Services",
-    cat: "High-Hazard",
+    cat: "Security Guards",
     desc: "Armed and unarmed guards, patrol, and event security — classes most carriers decline. We place general liability, professional liability, and workers' compensation for guard payrolls across single-state and multi-jurisdiction operations.",
   },
   {
@@ -87,7 +87,7 @@ export const INDUSTRIES = [
 export const FILTERS = [
   "All",
   "Construction & Trades",
-  "High-Hazard",
+  "Security Guards",
   "Healthcare & Human Services",
   "Staffing",
   "Manufacturing",

@@ -139,8 +139,8 @@ export default function AboutPage() {
                 }}
               >
                 We are deliberately small. Every client works directly with a
-                principal — not a service tier — and every submission is built by
-                someone who has read the loss runs and knows the underwriter on
+                principal — not a service tier — and every account is worked by
+                someone who has read your loss runs and knows the underwriter on
                 the other side.
               </p>
             </ScrollReveal>

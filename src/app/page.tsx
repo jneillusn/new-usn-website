@@ -18,7 +18,7 @@ const WHY_CELLS = [
   {
     num: "03",
     title: "Boutique service",
-    body: "One broker who knows your business — from submission to renewal to the midnight certificate request. Not a queue. Not a call center.",
+    body: "One broker who knows your business — from your first call through every renewal and the midnight certificate request. Not a queue. Not a call center.",
   },
 ];
 
@@ -250,7 +250,7 @@ export default function Home() {
               }}
             >
               We build programs across a wide range of industries — including
-              many of the classes other brokers route around. A sample of the
+              many that other agencies won&apos;t cover. A sample of the
               accounts we place every day:
             </p>
           </ScrollReveal>
@@ -329,7 +329,7 @@ export default function Home() {
                 color: "#0A1628",
               }}
             >
-              Built for the files other brokers send back.
+              Built for the businesses other agencies turn away.
             </h2>
           </ScrollReveal>
           <ScrollReveal
