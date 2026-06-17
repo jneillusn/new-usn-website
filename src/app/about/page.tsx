@@ -62,32 +62,21 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Full-bleed image placeholder */}
+      {/* Full-bleed image */}
       <section style={{ padding: "0 0 100px" }}>
-        <div
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src="/about-hero.jpg"
+          alt="Commercial district — U.S. National Insurance"
           style={{
             width: "100%",
             height: 460,
-            background: "#0A1628",
-            backgroundImage:
-              "repeating-linear-gradient(135deg, rgba(255,255,255,0.03) 0 2px, transparent 2px 22px)",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
+            objectFit: "cover",
+            objectPosition: "center 60%",
+            display: "block",
+            filter: "grayscale(0.15) contrast(1.05)",
           }}
-        >
-          <span
-            style={{
-              fontFamily: "var(--font-ibm-plex-mono), ui-monospace, monospace",
-              fontSize: 12,
-              letterSpacing: "0.1em",
-              color: "rgba(201,168,76,0.7)",
-              textTransform: "uppercase",
-            }}
-          >
-            [ full-bleed image — serious commercial environment ]
-          </span>
-        </div>
+        />
       </section>
 
       {/* Two-column body */}
