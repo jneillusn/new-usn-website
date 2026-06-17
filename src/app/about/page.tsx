@@ -43,16 +43,17 @@ export default function AboutPage() {
               About the Firm
             </div>
           </ScrollReveal>
-          <ScrollReveal style={{ maxWidth: "24ch" }}>
+          <ScrollReveal>
             <h1
               style={{
                 fontFamily: "var(--font-cormorant), Georgia, serif",
                 fontWeight: 600,
                 fontSize: 60,
-                lineHeight: 1.08,
+                lineHeight: 1.12,
                 letterSpacing: "-0.01em",
                 margin: 0,
                 color: "#0A1628",
+                maxWidth: 800,
               }}
             >
               A brokerage built around doing it right, not just doing what&apos;s easy.
