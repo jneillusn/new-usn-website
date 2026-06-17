@@ -43,7 +43,7 @@ export default function IndustriesPage() {
                 color: "#0A1628",
               }}
             >
-              Classes we know cold.
+              The industries we&apos;re proud to work with.
             </h1>
             <p
               style={{
