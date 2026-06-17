@@ -164,6 +164,44 @@ export default function Footer() {
           </div>
         </div>
 
+        {/* Scali partner row */}
+        <div
+          style={{
+            padding: "40px 0",
+            borderBottom: "1px solid rgba(255,255,255,0.12)",
+            display: "flex",
+            flexDirection: "column",
+            gap: 18,
+          }}
+        >
+          <p
+            style={{
+              fontSize: 13.5,
+              lineHeight: 1.7,
+              color: "rgba(255,255,255,0.52)",
+              margin: 0,
+              maxWidth: "72ch",
+            }}
+          >
+            U.S. National Insurance is a proud partner of Scali Insurance Group,
+            a nationwide network of independent insurance agencies dedicated to
+            providing exceptional service and innovative risk solutions.
+          </p>
+          <a
+            href="https://www.scaliins.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ display: "inline-block", lineHeight: 0 }}
+          >
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/scali-logo.jpg"
+              alt="Scali Insurance Group"
+              style={{ height: 52, width: "auto" }}
+            />
+          </a>
+        </div>
+
         {/* Bottom bar */}
         <div
           style={{
