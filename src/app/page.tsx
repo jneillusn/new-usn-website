@@ -1,6 +1,5 @@
 import Link from "next/link";
 import HeroSection from "@/components/HeroSection";
-import StatsSection from "@/components/StatsSection";
 import ScrollReveal from "@/components/ScrollReveal";
 import { SERVICES, INDUSTRIES } from "@/lib/data";
 
@@ -299,7 +298,6 @@ export default function Home() {
         </div>
       </section>
 
-      <StatsSection />
 
       {/* Why U.S. National */}
       <section style={{ background: "#ffffff", padding: "130px 0" }}>
