@@ -467,7 +467,7 @@ export default function ContactPage() {
         <div
           style={{ maxWidth: 1280, margin: "0 auto", padding: "0 48px" }}
         >
-          <ScrollReveal style={{ maxWidth: "24ch" }}>
+          <ScrollReveal>
             <div
               style={{
                 fontSize: 11,
