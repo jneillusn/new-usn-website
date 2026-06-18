@@ -1,7 +1,8 @@
 "use client";
 
+import Link from "next/link";
 import ScrollReveal from "@/components/ScrollReveal";
-import { ARTICLES } from "@/lib/data";
+import { ARTICLES, Article } from "@/lib/data";
 
 export default function InsightsPage() {
   return (
@@ -74,13 +75,10 @@ export default function InsightsPage() {
   );
 }
 
-function ArticleCard({
-  article,
-}: {
-  article: { title: string; summary: string; cat: string; date: string };
-}) {
+function ArticleCard({ article }: { article: Article }) {
   return (
-    <div
+    <Link
+      href={`/insights/${article.slug}`}
       style={{
         background: "#ffffff",
         padding: "48px 44px 52px",
@@ -154,6 +152,6 @@ function ArticleCard({
       >
         Read <span style={{ fontSize: 15 }}>→</span>
       </span>
-    </div>
+    </Link>
   );
 }
