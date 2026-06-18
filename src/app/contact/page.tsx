@@ -26,10 +26,12 @@ const LABEL_STYLE: React.CSSProperties = {
 
 function Field({
   label,
+  name,
   type = "text",
   placeholder,
 }: {
   label: string;
+  name: string;
   type?: string;
   placeholder?: string;
 }) {
@@ -39,6 +41,7 @@ function Field({
       <label style={LABEL_STYLE}>{label}</label>
       <input
         type={type}
+        name={name}
         placeholder={placeholder}
         onFocus={() => setFocused(true)}
         onBlur={() => setFocused(false)}
@@ -52,12 +55,13 @@ function Field({
   );
 }
 
-function TextAreaField({ label, placeholder }: { label: string; placeholder?: string }) {
+function TextAreaField({ label, name, placeholder }: { label: string; name: string; placeholder?: string }) {
   const [focused, setFocused] = useState(false);
   return (
     <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
       <label style={LABEL_STYLE}>{label}</label>
       <textarea
+        name={name}
         placeholder={placeholder}
         rows={3}
         onFocus={() => setFocused(true)}
@@ -75,6 +79,7 @@ function TextAreaField({ label, placeholder }: { label: string; placeholder?: st
 
 function ContactForm() {
   const [submitted, setSubmitted] = useState(false);
+  const [error, setError] = useState(false);
 
   if (submitted) {
     return (
@@ -111,14 +116,30 @@ function ContactForm() {
 
   return (
     <form
-      onSubmit={(e) => {
+      onSubmit={async (e) => {
         e.preventDefault();
-        setSubmitted(true);
+        setError(false);
+        const data = new FormData(e.currentTarget);
+        const res = await fetch("https://formspree.io/f/mjgdqpnb", {
+          method: "POST",
+          body: data,
+          headers: { Accept: "application/json" },
+        });
+        if (res.ok) {
+          setSubmitted(true);
+        } else {
+          setError(true);
+        }
       }}
       style={{ display: "flex", flexDirection: "column", gap: 22 }}
     >
-      <Field label="Name" />
-      <Field label="Company" />
+      {error && (
+        <p style={{ fontSize: 14, color: "#b00", margin: 0 }}>
+          Something went wrong — please try again or email us directly at service@usnational.com.
+        </p>
+      )}
+      <Field label="Name" name="name" />
+      <Field label="Company" name="company" />
       <div
         style={{
           display: "grid",
@@ -126,10 +147,10 @@ function ContactForm() {
           gap: 22,
         }}
       >
-        <Field label="Phone" type="tel" />
-        <Field label="Email" type="email" />
+        <Field label="Phone" name="phone" type="tel" />
+        <Field label="Email" name="email" type="email" />
       </div>
-      <TextAreaField label="Message" />
+      <TextAreaField label="Message" name="message" />
       <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
         <label style={LABEL_STYLE}>Preferred Contact Method</label>
         <div style={{ display: "flex", gap: 28 }}>
@@ -297,7 +318,7 @@ function QuoteWizard() {
 
       {step === 1 && (
         <div style={{ display: "flex", flexDirection: "column", gap: 24 }}>
-          <Field label="Company Name" />
+          <Field label="Company Name" name="company_name" />
           <Field
             label="Industry"
             placeholder="e.g. Security & guard services"
@@ -305,8 +326,8 @@ function QuoteWizard() {
           <div
             style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 24 }}
           >
-            <Field label="State(s) of Operation" placeholder="AZ, NV, CA…" />
-            <Field label="Annual Revenue" placeholder="$" />
+            <Field label="State(s) of Operation" name="states" placeholder="AZ, NV, CA…" />
+            <Field label="Annual Revenue" name="revenue" placeholder="$" />
           </div>
         </div>
       )}
@@ -359,10 +380,10 @@ function QuoteWizard() {
           <div
             style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 24 }}
           >
-            <Field label="Current Carrier" />
-            <Field label="Current Premium" placeholder="$" />
+            <Field label="Current Carrier" name="current_carrier" />
+            <Field label="Current Premium" name="current_premium" placeholder="$" />
           </div>
-          <Field label="Renewal Date" placeholder="MM / YYYY" />
+          <Field label="Renewal Date" name="renewal_date" placeholder="MM / YYYY" />
           <TextAreaField
             label="Loss History Notes"
             placeholder="Open claims, large losses, anything an underwriter should know…"
@@ -375,14 +396,14 @@ function QuoteWizard() {
           <div
             style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 24 }}
           >
-            <Field label="Your Name" />
-            <Field label="Title" />
+            <Field label="Your Name" name="contact_name" />
+            <Field label="Title" name="title" />
           </div>
           <div
             style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 24 }}
           >
-            <Field label="Email" type="email" />
-            <Field label="Phone" type="tel" />
+            <Field label="Email" name="contact_email" type="email" />
+            <Field label="Phone" name="contact_phone" type="tel" />
           </div>
         </div>
       )}
