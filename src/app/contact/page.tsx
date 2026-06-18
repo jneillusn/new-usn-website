@@ -321,6 +321,7 @@ function QuoteWizard() {
           <Field label="Company Name" name="company_name" />
           <Field
             label="Industry"
+            name="industry"
             placeholder="e.g. Security & guard services"
           />
           <div
