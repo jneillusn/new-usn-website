@@ -242,11 +242,11 @@ export const ARTICLES: Article[] = [
       },
       {
         type: "p",
-        text: "The math is significant: a $10,000 medical-only claim counts as only $3,000 in the EMOD formula. The same $10,000 claim with even one day of lost time converts to an indemnity claim and counts as the full $10,000. That single day of lost time effectively triples the weight of that claim on your modifier.",
+        text: "The math is significant: a $10,000 medical-only claim counts as only $3,000 in the EMOD formula. The same $10,000 claim that crosses into indemnity — meaning lost time exceeds the statutory waiting period in your state — counts as the full $10,000. In Arizona that waiting period is 7 days; other states range from 3 to 7 days. Once that threshold is crossed, the claim converts and the full value hits your EMOD.",
       },
       {
         type: "p",
-        text: "This is why return-to-work and modified duty programs are so valuable — not just from a human standpoint, but as a direct premium management strategy. If you can bring an injured employee back in a light-duty capacity before the waiting period expires, you preserve the medical-only designation and capture that 70% discount. Every employer with any payroll exposure should have a written modified duty program.",
+        text: "This is why return-to-work and modified duty programs are so valuable — not just from a human standpoint, but as a direct premium management strategy. If you can bring an injured employee back in a light-duty capacity before their lost time exceeds the statutory waiting period, you preserve the medical-only designation and capture that 70% discount. Every employer with any payroll exposure should have a written modified duty program.",
       },
       { type: "h2", text: "The unit statistical date" },
       {
