@@ -206,44 +206,6 @@ export const ARTICLES: Article[] = [
     ],
   },
   {
-    title: "Workers' Comp Audit Survival Guide",
-    summary:
-      "What to document, what to dispute, and how to avoid a five-figure surprise at year-end audit.",
-    cat: "Compliance",
-    date: "Mar 2026",
-    slug: "workers-comp-audit-guide",
-    body: [
-      {
-        type: "p",
-        text: "Workers' compensation premiums are estimated at the start of the policy year based on projected payroll. At the end of the year, the carrier audits your actual payroll and adjusts the premium accordingly. If your payroll came in higher than estimated, you owe more. The audit bill can be a significant surprise — but with the right documentation, it's manageable.",
-      },
-      { type: "h2", text: "What the auditor is looking for" },
-      {
-        type: "p",
-        text: "The carrier's auditor — either in person or via mail — will ask for your payroll records broken down by class code. Class codes are the four-digit categories that describe what each employee does. A contractor might have employees classified as laborers, supervisors, and office staff — each at a different rate. If payroll isn't properly allocated to class codes, the auditor will often default to the highest applicable rate.",
-      },
-      { type: "h2", text: "What to have ready" },
-      {
-        type: "p",
-        text: "Payroll records by employee and job function. Time records if employees split time between class codes — for example, a field supervisor who also does physical labor versus purely supervisory work. Certificates of insurance for every subcontractor you used during the policy year. If a subcontractor can't produce a valid COI, their payroll may be pulled into your audit.",
-      },
-      { type: "h2", text: "What to dispute" },
-      {
-        type: "p",
-        text: "Auditors make mistakes. Class code misclassifications are common, particularly for employees who perform multiple functions. If an office employee gets lumped into a field classification, that's worth disputing with documentation.",
-      },
-      {
-        type: "p",
-        text: "Overtime is another area to watch. Workers' comp premiums are typically calculated on straight-time payroll only — the premium portion of overtime (the extra half) is usually excluded. Make sure your payroll records separate straight time from overtime, or you may end up paying premium on dollars you don't owe.",
-      },
-      { type: "h2", text: "How to avoid the year-end surprise" },
-      {
-        type: "p",
-        text: "Update your payroll estimate mid-year if your headcount or wages have changed significantly. Most carriers will adjust the policy on request. A large variance between estimated and actual payroll is exactly what produces a large audit bill — keeping the estimate current throughout the year keeps the gap small and the surprises manageable.",
-      },
-    ],
-  },
-  {
     title: "EPLI Basics for Growing Employers",
     summary:
       "The headcount threshold that quietly turns ordinary HR mistakes into covered claims.",
