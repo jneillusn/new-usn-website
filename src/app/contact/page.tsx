@@ -489,6 +489,7 @@ export default function ContactPage() {
                 letterSpacing: "-0.01em",
                 margin: "0 0 24px",
                 color: "#ffffff",
+                maxWidth: 760,
               }}
             >
               Let&apos;s build the right program for you.
