@@ -387,6 +387,7 @@ function QuoteWizard() {
           <Field label="Renewal Date" name="renewal_date" placeholder="MM / YYYY" />
           <TextAreaField
             label="Loss History Notes"
+            name="loss_history"
             placeholder="Open claims, large losses, anything an underwriter should know…"
           />
         </div>
