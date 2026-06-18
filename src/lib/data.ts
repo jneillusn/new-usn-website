@@ -206,6 +206,82 @@ export const ARTICLES: Article[] = [
     ],
   },
   {
+    title: "Understanding Your EMOD — and How to Lower It",
+    summary:
+      "The experience modifier is the single biggest lever on your workers' comp premium. Here's how it works, what drives it, and what you can do about it.",
+    cat: "Workers' Comp",
+    date: "Jun 2026",
+    slug: "understanding-your-emod",
+    body: [
+      {
+        type: "p",
+        text: "If you have a workers' compensation policy and more than a few years of payroll history, you have an experience modification factor — an EMOD. It's a multiplier applied directly to your workers' comp premium, and it's one of the most powerful cost levers in commercial insurance. A 1.30 EMOD means you're paying 30% more than the base rate. A 0.75 EMOD means you're paying 25% less. Understanding how it's calculated puts you in a position to actually do something about it.",
+      },
+      { type: "h2", text: "What an EMOD is" },
+      {
+        type: "p",
+        text: "Your EMOD is calculated by the NCCI (National Council on Compensation Insurance) or your state's rating bureau, using three years of your loss history — typically excluding the most recent policy year. It compares your actual losses to what would be expected from a business of your size and classification. A 1.00 is average. Below 1.00 is a credit — you've had fewer or smaller losses than expected. Above 1.00 is a debit — you've had more.",
+      },
+      {
+        type: "p",
+        text: "The rating bureau pulls your loss data directly from your carriers via a process called unit statistical reporting. You don't submit it — your carriers do, on a fixed schedule. That schedule matters more than most employers realize.",
+      },
+      { type: "h2", text: "How it's calculated: primary vs. excess losses" },
+      {
+        type: "p",
+        text: "Not every dollar of loss counts the same in the EMOD formula. Each claim is split at a threshold called the split point. Losses below the split point are called primary losses and count dollar-for-dollar. Losses above the split point are called excess losses and are discounted significantly — often to 10–15 cents on the dollar.",
+      },
+      {
+        type: "p",
+        text: "What this means in practice: frequency hurts you more than severity. Ten claims at $5,000 each will damage your EMOD far more than one $50,000 claim, because all ten are fully in the primary layer. A single large loss partially escapes into excess territory where it's heavily discounted. This is counterintuitive to most employers, but it's one of the most important things to understand about how the formula works.",
+      },
+      { type: "h2", text: "Medical only vs. indemnity — the 70% discount" },
+      {
+        type: "p",
+        text: "This is where most employers leave money on the table. The NCCI gives a 70% discount to medical-only claims in the EMOD calculation. A medical-only claim is one where the injured worker received medical treatment but did not miss time from work beyond the statutory waiting period — meaning no indemnity (lost wage) payments were made.",
+      },
+      {
+        type: "p",
+        text: "The math is significant: a $10,000 medical-only claim counts as only $3,000 in the EMOD formula. The same $10,000 claim with even one day of lost time converts to an indemnity claim and counts as the full $10,000. That single day of lost time effectively triples the weight of that claim on your modifier.",
+      },
+      {
+        type: "p",
+        text: "This is why return-to-work and modified duty programs are so valuable — not just from a human standpoint, but as a direct premium management strategy. If you can bring an injured employee back in a light-duty capacity before the waiting period expires, you preserve the medical-only designation and capture that 70% discount. Every employer with any payroll exposure should have a written modified duty program.",
+      },
+      { type: "h2", text: "The unit statistical date" },
+      {
+        type: "p",
+        text: "Your unit stat date is the date your losses are reported to the rating bureau for a given policy year — typically 18 months after the start of the policy. For a policy that started January 1, 2024, the unit stat date is around July 1, 2025. After that date, those losses are filed and your EMOD is recalculated.",
+      },
+      {
+        type: "p",
+        text: "Why this matters: open claims carry reserves. A reserve is the carrier's estimate of what it will ultimately pay on a claim. That full reserve amount — not just what's been paid — counts in the EMOD formula. A claim that's open at $40,000 in reserves counts as $40,000, even if it ultimately settles for $15,000 after the unit stat date. By then, the damage is done.",
+      },
+      {
+        type: "p",
+        text: "The strategy is to work proactively with your broker and the claims adjuster to close claims — or at minimum, push for accurate reserve reductions — before your unit stat date. Know your dates. Mark them on your calendar. Start the conversation with your adjuster 90 days out, not 90 days after.",
+      },
+      { type: "h2", text: "Managing reserves throughout the year" },
+      {
+        type: "p",
+        text: "Reserves are set by adjusters, and adjusters are sometimes conservative. A reserve that was reasonable when a claim opened may no longer reflect the likely outcome six months later — especially if the claimant has returned to work, treatment has concluded, or a settlement is in sight. You have the right to request a reserve review, and your broker should be doing this on your behalf regularly.",
+      },
+      {
+        type: "p",
+        text: "Subrogation is another lever. If a third party contributed to the injury — a negligent driver, defective equipment, a property owner — your carrier may have a subrogation right to recover what it paid. Recovered dollars reduce your net loss totals. Make sure your carrier is actively pursuing subrogation on eligible claims, because it directly benefits your loss history.",
+      },
+      { type: "h2", text: "What you can actually control" },
+      {
+        type: "p",
+        text: "Your EMOD reflects three years of history, so changes take time — but the trajectory starts immediately. The four highest-leverage actions: implement a return-to-work program so claims stay medical-only wherever possible; know your unit stat dates and manage claims proactively before them; request reserve reviews on any open claim that's trended toward resolution; and work with a broker who treats your loss runs as a living document, not just a renewal formality.",
+      },
+      {
+        type: "p",
+        text: "A 0.20 improvement in your EMOD on a $200,000 annual premium is $40,000 back in your pocket — every year it holds. It compounds. The employers who manage their EMOD actively pay materially less for the same coverage over time than those who don't.",
+      },
+    ],
+  },
+  {
     title: "EPLI Basics for Growing Employers",
     summary:
       "The headcount threshold that quietly turns ordinary HR mistakes into covered claims.",
