@@ -37,7 +37,7 @@ export default function ServicesPage() {
                 color: "#0A1628",
               }}
             >
-              Coverage, placed by line.
+              Every line, placed with intent.
             </h1>
             <p
               style={{
@@ -47,8 +47,8 @@ export default function ServicesPage() {
                 margin: 0,
               }}
             >
-              A complete commercial program, structured one line at a time.
-              Hover a service to read how we approach it.
+              From general liability to specialty programs — we build commercial
+              coverage that fits the account, not the other way around.
             </p>
           </ScrollReveal>
         </div>
