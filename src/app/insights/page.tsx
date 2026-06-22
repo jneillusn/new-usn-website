@@ -7,7 +7,7 @@ import { ARTICLES, Article } from "@/lib/data";
 export default function InsightsPage() {
   return (
     <main style={{ paddingTop: 78 }}>
-      <section style={{ background: "#ffffff", padding: "120px 0 60px" }}>
+      <section style={{ background: "#0A1628", padding: "110px 0 100px" }}>
         <div
           style={{ maxWidth: 1280, margin: "0 auto", padding: "0 48px" }}
         >
@@ -32,7 +32,7 @@ export default function InsightsPage() {
                 lineHeight: 1.04,
                 letterSpacing: "-0.01em",
                 margin: "0 0 28px",
-                color: "#0A1628",
+                color: "#ffffff",
               }}
             >
               Notes from the desk.
@@ -41,7 +41,7 @@ export default function InsightsPage() {
               style={{
                 fontSize: 18,
                 lineHeight: 1.75,
-                color: "rgba(10,22,40,0.7)",
+                color: "rgba(255,255,255,0.7)",
                 margin: 0,
               }}
             >

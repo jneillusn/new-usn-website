@@ -15,7 +15,7 @@ export default function IndustriesPage() {
 
   return (
     <main style={{ paddingTop: 78 }}>
-      <section style={{ background: "#ffffff", padding: "120px 0 50px" }}>
+      <section style={{ background: "#0A1628", padding: "110px 0 100px" }}>
         <div
           style={{ maxWidth: 1280, margin: "0 auto", padding: "0 48px" }}
         >
@@ -40,7 +40,7 @@ export default function IndustriesPage() {
                 lineHeight: 1.04,
                 letterSpacing: "-0.01em",
                 margin: "0 0 28px",
-                color: "#0A1628",
+                color: "#ffffff",
               }}
             >
               The industries we&apos;re proud to work with.
@@ -49,7 +49,7 @@ export default function IndustriesPage() {
               style={{
                 fontSize: 18,
                 lineHeight: 1.75,
-                color: "rgba(10,22,40,0.7)",
+                color: "rgba(255,255,255,0.7)",
                 margin: 0,
               }}
             >
