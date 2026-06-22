@@ -217,7 +217,7 @@ export default function Footer() {
             © 2026 U.S. National Insurance LLC. All rights reserved.
           </div>
           <div style={{ fontSize: 12.5, color: "rgba(255,255,255,0.4)" }}>
-            AZ License #3000XXXXX &nbsp;·&nbsp; Part of Scali Insurance Group
+            AZ License #1800015468 &nbsp;·&nbsp; Part of Scali Insurance Group
           </div>
         </div>
       </div>
