@@ -25,11 +25,11 @@ export default function AboutPage() {
   return (
     <main style={{ paddingTop: 78 }}>
       {/* Header */}
-      <section style={{ background: "#ffffff", padding: "120px 0 90px" }}>
+      <section style={{ background: "#0A1628", padding: "110px 0 100px" }}>
         <div
           style={{ maxWidth: 1280, margin: "0 auto", padding: "0 48px" }}
         >
-          <ScrollReveal style={{ maxWidth: "20ch", marginBottom: 14 }}>
+          <ScrollReveal style={{ maxWidth: "62ch" }}>
             <div
               style={{
                 fontSize: 11,
@@ -42,8 +42,6 @@ export default function AboutPage() {
             >
               About the Firm
             </div>
-          </ScrollReveal>
-          <ScrollReveal>
             <h1
               style={{
                 fontFamily: "var(--font-cormorant), Georgia, serif",
@@ -52,7 +50,7 @@ export default function AboutPage() {
                 lineHeight: 1.12,
                 letterSpacing: "-0.01em",
                 margin: 0,
-                color: "#0A1628",
+                color: "#ffffff",
                 maxWidth: 800,
               }}
             >
@@ -61,6 +59,9 @@ export default function AboutPage() {
           </ScrollReveal>
         </div>
       </section>
+
+      {/* Gold rule */}
+      <div style={{ height: 3, background: "#C9A84C" }} />
 
       {/* Full-bleed image */}
       <section style={{ padding: "0 0 100px" }}>
