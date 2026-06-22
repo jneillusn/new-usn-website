@@ -60,7 +60,9 @@ export default function IndustriesPage() {
         </div>
       </section>
 
-      <section style={{ background: "#ffffff", padding: "0 0 130px" }}>
+      <div style={{ height: 3, background: "#C9A84C" }} />
+
+      <section style={{ background: "#ffffff", padding: "60px 0 130px" }}>
         <div
           style={{ maxWidth: 1280, margin: "0 auto", padding: "0 48px" }}
         >
