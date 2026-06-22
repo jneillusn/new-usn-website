@@ -1,9 +1,30 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { ARTICLES } from "@/lib/data";
 
 export function generateStaticParams() {
   return ARTICLES.map((a) => ({ slug: a.slug }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const article = ARTICLES.find((a) => a.slug === slug);
+  if (!article) return {};
+  return {
+    title: article.title,
+    description: article.summary,
+    openGraph: {
+      title: `${article.title} | U.S. National Insurance`,
+      description: article.summary,
+      url: `https://usnational.com/insights/${article.slug}`,
+      type: "article",
+    },
+  };
 }
 
 export default async function ArticlePage({

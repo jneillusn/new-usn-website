@@ -1,7 +1,42 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import HeroSection from "@/components/HeroSection";
 import ScrollReveal from "@/components/ScrollReveal";
 import { SERVICES, INDUSTRIES } from "@/lib/data";
+
+export const metadata: Metadata = {
+  title: "U.S. National Insurance | Commercial Lines Brokerage — Scottsdale, AZ",
+  description:
+    "Boutique commercial lines brokerage in Scottsdale, AZ. General liability, workers' comp, E&S lines, and more — placed by specialists with direct carrier relationships across 75+ markets.",
+  openGraph: {
+    title: "U.S. National Insurance | Commercial Lines Brokerage — Scottsdale, AZ",
+    description:
+      "Boutique commercial lines brokerage in Scottsdale, AZ. National market access, boutique service.",
+    url: "https://usnational.com",
+  },
+};
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "InsuranceAgency",
+  name: "U.S. National Insurance LLC",
+  url: "https://usnational.com",
+  email: "service@usnational.com",
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "Scottsdale",
+    addressRegion: "AZ",
+    addressCountry: "US",
+  },
+  description:
+    "Boutique commercial lines brokerage placing commercial insurance across the full spectrum — from standard business accounts to complex, hard-to-place risks.",
+  areaServed: "US",
+  memberOf: {
+    "@type": "Organization",
+    name: "Scali Insurance Group",
+    url: "https://www.scaliins.com",
+  },
+};
 
 const WHY_CELLS = [
   {
@@ -25,6 +60,11 @@ export default function Home() {
   const homeServices = SERVICES.slice(0, 6);
 
   return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
     <main>
       <HeroSection />
 
@@ -447,5 +487,6 @@ export default function Home() {
         </div>
       </section>
     </main>
+    </>
   );
 }

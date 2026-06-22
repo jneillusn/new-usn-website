@@ -1,4 +1,17 @@
+import type { Metadata } from "next";
 import ScrollReveal from "@/components/ScrollReveal";
+
+export const metadata: Metadata = {
+  title: "About the Firm",
+  description:
+    "U.S. National Insurance LLC is a Scottsdale-based commercial lines brokerage built around boutique service and national market access. Every account is worked by a broker who knows the file.",
+  openGraph: {
+    title: "About U.S. National Insurance | Commercial Lines Brokerage",
+    description:
+      "Scottsdale-based boutique brokerage. Every client works directly with a principal — not a service tier.",
+    url: "https://usnational.com/about",
+  },
+};
 
 const BLOCKS = [
   {

@@ -26,9 +26,18 @@ const ibmPlexMono = IBM_Plex_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "U.S. National Insurance — Commercial Risk, Handled with Precision",
+  metadataBase: new URL("https://usnational.com"),
+  title: {
+    default: "U.S. National Insurance | Commercial Lines Brokerage — Scottsdale, AZ",
+    template: "%s | U.S. National Insurance",
+  },
   description:
-    "Boutique commercial lines brokerage for complex, hard-to-place accounts. Scottsdale, AZ. Part of Scali Insurance Group.",
+    "Boutique commercial lines brokerage in Scottsdale, AZ. We place commercial insurance across the full spectrum — from standard business accounts to complex, hard-to-place risks. National market access, boutique service.",
+  openGraph: {
+    siteName: "U.S. National Insurance",
+    type: "website",
+    locale: "en_US",
+  },
 };
 
 export default function RootLayout({
