@@ -8,7 +8,7 @@ const nextConfig: NextConfig = {
       { source: "/request-a-code", destination: "/contact", permanent: true },
       { source: "/workers-compensation-solutions", destination: "/services", permanent: true },
       { source: "/commercial-lines", destination: "/services", permanent: true },
-      { source: "/privacypolicy", destination: "/", permanent: true },
+      { source: "/privacypolicy", destination: "/privacy-policy", permanent: true },
       { source: "/copy-of-product-liability", destination: "/services", permanent: true },
     ];
   },
