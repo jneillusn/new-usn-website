@@ -533,6 +533,8 @@ export default function ContactPage() {
         </div>
       </section>
 
+      <div style={{ height: 3, background: "#C9A84C" }} />
+
       {/* Forms */}
       <section style={{ background: "#ffffff", padding: "90px 0 60px" }}>
         <div

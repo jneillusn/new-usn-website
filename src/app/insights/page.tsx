@@ -52,6 +52,8 @@ export default function InsightsPage() {
         </div>
       </section>
 
+      <div style={{ height: 3, background: "#C9A84C" }} />
+
       <section style={{ background: "#ffffff", padding: "20px 0 130px" }}>
         <div
           style={{ maxWidth: 1280, margin: "0 auto", padding: "0 48px" }}
