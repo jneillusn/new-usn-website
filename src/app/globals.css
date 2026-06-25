@@ -53,6 +53,44 @@
   }
 }
 
+/* ── Mobile responsive ────────────────────────────────── */
+@media (max-width: 768px) {
+  /* Nav */
+  .nav-desktop { display: none !important; }
+  .nav-hamburger { display: flex !important; }
+  .nav-inner { padding: 0 20px !important; }
+
+  /* Common layout */
+  .section-inner { padding-left: 20px !important; padding-right: 20px !important; }
+  .section-tall { padding-top: 80px !important; padding-bottom: 80px !important; }
+
+  /* Grids */
+  .two-col-grid { grid-template-columns: 1fr !important; gap: 40px !important; }
+  .three-col-grid { grid-template-columns: 1fr !important; }
+
+  /* Hero */
+  .hero-inner { padding: 100px 20px 60px !important; }
+  .hero-h1 { font-size: 46px !important; }
+  .hero-sub { font-size: 16px !important; max-width: 100% !important; }
+
+  /* Home headings */
+  .home-h2 { font-size: 32px !important; }
+  .home-h2-lg { font-size: 36px !important; }
+
+  /* Services header row */
+  .services-header {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 20px !important;
+    margin-bottom: 40px !important;
+  }
+
+  /* CTA */
+  .cta-section { padding: 90px 0 !important; }
+  .cta-headline { font-size: 36px !important; }
+  .cta-sub { font-size: 16px !important; }
+}
+
 *, *::before, *::after {
   box-sizing: border-box;
 }

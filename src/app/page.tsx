@@ -69,8 +69,9 @@ export default function Home() {
       <HeroSection />
 
       {/* Positioning */}
-      <section style={{ background: "#ffffff", padding: "130px 0" }}>
+      <section className="section-tall" style={{ background: "#ffffff", padding: "130px 0" }}>
         <div
+          className="section-inner two-col-grid"
           style={{
             maxWidth: 1280,
             margin: "0 auto",
@@ -104,6 +105,7 @@ export default function Home() {
                 margin: 0,
                 color: "#0A1628",
               }}
+              className="home-h2-lg"
             >
               You talk to your broker, not a call center.
             </h2>
@@ -143,6 +145,7 @@ export default function Home() {
 
       {/* Services strip */}
       <section
+        className="section-tall"
         style={{
           background: "#FAF9F6",
           padding: "120px 0",
@@ -150,9 +153,11 @@ export default function Home() {
         }}
       >
         <div
+          className="section-inner"
           style={{ maxWidth: 1280, margin: "0 auto", padding: "0 48px" }}
         >
           <ScrollReveal
+            className="services-header"
             style={{
               display: "flex",
               justifyContent: "space-between",
@@ -176,6 +181,7 @@ export default function Home() {
                 Lines of Coverage
               </div>
               <h2
+                className="home-h2"
                 style={{
                   fontFamily: "var(--font-cormorant), Georgia, serif",
                   fontWeight: 600,
@@ -249,8 +255,9 @@ export default function Home() {
       </section>
 
       {/* Industries */}
-      <section style={{ background: "#ffffff", padding: "120px 0" }}>
+      <section className="section-tall" style={{ background: "#ffffff", padding: "120px 0" }}>
         <div
+          className="section-inner"
           style={{ maxWidth: 1280, margin: "0 auto", padding: "0 48px" }}
         >
           <ScrollReveal style={{ marginBottom: 50 }}>
@@ -294,6 +301,7 @@ export default function Home() {
             </p>
           </ScrollReveal>
           <ScrollReveal
+            className="two-col-grid"
             style={{
               display: "grid",
               gridTemplateColumns: "repeat(2, 1fr)",
@@ -340,8 +348,9 @@ export default function Home() {
 
 
       {/* Why U.S. National */}
-      <section style={{ background: "#ffffff", padding: "130px 0" }}>
+      <section className="section-tall" style={{ background: "#ffffff", padding: "130px 0" }}>
         <div
+          className="section-inner"
           style={{ maxWidth: 1280, margin: "0 auto", padding: "0 48px" }}
         >
           <ScrollReveal style={{ marginBottom: 64, maxWidth: "60ch" }}>
@@ -371,6 +380,7 @@ export default function Home() {
             </h2>
           </ScrollReveal>
           <ScrollReveal
+            className="three-col-grid"
             style={{
               display: "grid",
               gridTemplateColumns: "repeat(3, 1fr)",
@@ -423,8 +433,9 @@ export default function Home() {
       </section>
 
       {/* Closing CTA */}
-      <section style={{ background: "#0A1628", padding: "140px 0" }}>
+      <section className="cta-section" style={{ background: "#0A1628", padding: "140px 0" }}>
         <div
+          className="section-inner"
           style={{
             maxWidth: 1280,
             margin: "0 auto",
@@ -451,6 +462,7 @@ export default function Home() {
                 color: "#ffffff",
                 letterSpacing: "-0.01em",
               }}
+              className="cta-headline"
             >
               Ready to place your commercial program?
             </h2>

@@ -15,6 +15,7 @@ export default function HeroSection() {
       }}
     >
       <div
+        className="hero-inner"
         style={{
           maxWidth: 1280,
           margin: "0 auto",
@@ -49,6 +50,7 @@ export default function HeroSection() {
         </div>
 
         <h1
+          className="hero-h1"
           style={{
             fontFamily: "var(--font-cormorant), Georgia, serif",
             fontWeight: 600,
@@ -65,6 +67,7 @@ export default function HeroSection() {
         </h1>
 
         <p
+          className="hero-sub"
           style={{
             fontSize: 19,
             lineHeight: 1.6,
