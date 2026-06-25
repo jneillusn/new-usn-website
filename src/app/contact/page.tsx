@@ -486,8 +486,9 @@ export default function ContactPage() {
   return (
     <main style={{ paddingTop: 78 }}>
       {/* Navy header */}
-      <section style={{ background: "#0A1628", padding: "110px 0 100px" }}>
+      <section className="page-header" style={{ background: "#0A1628", padding: "110px 0 100px" }}>
         <div
+          className="section-inner"
           style={{ maxWidth: 1280, margin: "0 auto", padding: "0 48px" }}
         >
           <ScrollReveal>
@@ -504,6 +505,7 @@ export default function ContactPage() {
               Contact &amp; Quote
             </div>
             <h1
+              className="page-h1-lg"
               style={{
                 fontFamily: "var(--font-cormorant), Georgia, serif",
                 fontWeight: 600,
@@ -538,6 +540,7 @@ export default function ContactPage() {
       {/* Forms */}
       <section style={{ background: "#ffffff", padding: "90px 0 60px" }}>
         <div
+          className="section-inner contact-cols"
           style={{
             maxWidth: 1280,
             margin: "0 auto",
@@ -576,6 +579,7 @@ export default function ContactPage() {
 
           {/* Quote Wizard */}
           <ScrollReveal
+            className="quote-wizard-card"
             style={{
               background: "#FAF9F6",
               border: "1px solid #ECE9E2",
@@ -611,6 +615,7 @@ export default function ContactPage() {
       {/* Office + Map */}
       <section style={{ background: "#ffffff", padding: "40px 0 110px" }}>
         <div
+          className="section-inner contact-office"
           style={{
             maxWidth: 1280,
             margin: "0 auto",

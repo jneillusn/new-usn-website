@@ -38,8 +38,9 @@ export default function AboutPage() {
   return (
     <main style={{ paddingTop: 78 }}>
       {/* Header */}
-      <section style={{ background: "#0A1628", padding: "110px 0 100px" }}>
+      <section className="page-header" style={{ background: "#0A1628", padding: "110px 0 100px" }}>
         <div
+          className="section-inner"
           style={{ maxWidth: 1280, margin: "0 auto", padding: "0 48px" }}
         >
           <ScrollReveal style={{ maxWidth: "62ch" }}>
@@ -56,6 +57,7 @@ export default function AboutPage() {
               About the Firm
             </div>
             <h1
+              className="page-h1-lg"
               style={{
                 fontFamily: "var(--font-cormorant), Georgia, serif",
                 fontWeight: 600,
@@ -96,9 +98,11 @@ export default function AboutPage() {
       {/* Two-column body */}
       <section style={{ background: "#ffffff", padding: "0 0 120px" }}>
         <div
+          className="section-inner"
           style={{ maxWidth: 1280, margin: "0 auto", padding: "0 48px" }}
         >
           <div
+            className="two-col-grid"
             style={{
               display: "grid",
               gridTemplateColumns: "1fr 1fr",

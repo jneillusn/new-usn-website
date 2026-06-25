@@ -9,8 +9,9 @@ export default function ServicesPage() {
 
   return (
     <main style={{ paddingTop: 78 }}>
-      <section style={{ background: "#0A1628", padding: "110px 0 100px" }}>
+      <section className="page-header" style={{ background: "#0A1628", padding: "110px 0 100px" }}>
         <div
+          className="section-inner"
           style={{ maxWidth: 1280, margin: "0 auto", padding: "0 48px" }}
         >
           <ScrollReveal style={{ maxWidth: "62ch" }}>
@@ -27,6 +28,7 @@ export default function ServicesPage() {
               Services
             </div>
             <h1
+              className="page-h1"
               style={{
                 fontFamily: "var(--font-cormorant), Georgia, serif",
                 fontWeight: 600,
@@ -58,6 +60,7 @@ export default function ServicesPage() {
 
       <section style={{ background: "#ffffff", padding: "0 0 130px" }}>
         <div
+          className="section-inner"
           style={{ maxWidth: 1280, margin: "0 auto", padding: "0 48px" }}
         >
           {SERVICES.map((svc, i) => (
@@ -98,6 +101,7 @@ function ServiceRow({
       }}
     >
       <div
+        className="service-row-inner"
         style={{
           display: "flex",
           justifyContent: "space-between",
@@ -106,6 +110,7 @@ function ServiceRow({
         }}
       >
         <div
+          className="service-name"
           style={{
             fontFamily: "var(--font-cormorant), Georgia, serif",
             fontSize: 44,
@@ -117,6 +122,7 @@ function ServiceRow({
           {svc.name}
         </div>
         <div
+          className="service-desc"
           style={{
             fontSize: 15,
             color: "rgba(10,22,40,0.55)",

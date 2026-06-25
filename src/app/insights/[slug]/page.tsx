@@ -39,8 +39,8 @@ export default async function ArticlePage({
   return (
     <main style={{ paddingTop: 78 }}>
       {/* Header band */}
-      <section style={{ background: "#0A1628", padding: "80px 0 72px" }}>
-        <div style={{ maxWidth: 1280, margin: "0 auto", padding: "0 48px" }}>
+      <section className="article-header" style={{ background: "#0A1628", padding: "80px 0 72px" }}>
+        <div className="section-inner" style={{ maxWidth: 1280, margin: "0 auto", padding: "0 48px" }}>
           <div
             style={{
               display: "flex",
@@ -72,6 +72,7 @@ export default async function ArticlePage({
             </span>
           </div>
           <h1
+            className="article-h1"
             style={{
               fontFamily: "var(--font-cormorant), Georgia, serif",
               fontWeight: 600,
@@ -94,6 +95,7 @@ export default async function ArticlePage({
       {/* Article body */}
       <section style={{ background: "#ffffff", padding: "80px 0 120px" }}>
         <div
+          className="article-content"
           style={{
             maxWidth: 720,
             margin: "0 auto",
@@ -179,6 +181,7 @@ export default async function ArticlePage({
       {/* CTA */}
       <section style={{ background: "#FAF9F6", padding: "80px 0" }}>
         <div
+          className="article-content"
           style={{
             maxWidth: 720,
             margin: "0 auto",
