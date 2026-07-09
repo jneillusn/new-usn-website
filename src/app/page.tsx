@@ -464,7 +464,7 @@ export default function Home() {
               }}
               className="cta-headline"
             >
-              Ready to place your commercial program?
+              Let&apos;s build the right program for your business.
             </h2>
             <p
               style={{
@@ -475,9 +475,9 @@ export default function Home() {
                 margin: "0 auto 44px",
               }}
             >
-              Whether it&apos;s a standard commercial account or the hardest file
-              you&apos;ve ever tried to place — boutique service, national market
-              access, and a broker who picks up the phone.
+              From standard commercial coverage to the complex and
+              hard-to-insure — one broker, one point of contact, and someone
+              who stays with you through every renewal.
             </p>
             <Link
               href="/contact"
