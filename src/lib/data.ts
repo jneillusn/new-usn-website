@@ -82,6 +82,11 @@ export const INDUSTRIES = [
     cat: "Professional",
     desc: "Errors & omissions and management liability for firms whose core exposure is their expertise — attorneys, accountants, consultants, engineers, architects, real estate professionals, insurance agents, technology companies, marketing and PR agencies, and financial advisors. We match coverage to the specific liability profile of each profession rather than fitting every firm into the same policy form.",
   },
+  {
+    name: "Public Entities & Government",
+    cat: "Public Entities",
+    desc: "Fire districts, municipalities, special districts, and other public entities carry a distinct liability profile that standard commercial markets don't underwrite the same way. We place programs addressing public officials errors and omissions, employment practices, general liability, property, workers' compensation, and cyber liability for smaller public entities, special districts, and quasi-governmental organizations that need a broker who understands the unique risks of serving the public.",
+  },
 ];
 
 export const FILTERS = [
@@ -93,6 +98,7 @@ export const FILTERS = [
   "Manufacturing",
   "Transportation",
   "Professional",
+  "Public Entities",
 ];
 
 export type ArticleBlock =
