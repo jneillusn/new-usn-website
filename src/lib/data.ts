@@ -87,6 +87,11 @@ export const INDUSTRIES = [
     cat: "Public Entities",
     desc: "Fire districts, municipalities, special districts, and other public entities carry a distinct liability profile that standard commercial markets don't underwrite the same way. We place programs addressing public officials errors and omissions, employment practices, general liability, property, workers' compensation, and cyber liability for smaller public entities, special districts, and quasi-governmental organizations that need a broker who understands the unique risks of serving the public.",
   },
+  {
+    name: "Agriculture & Agribusiness",
+    cat: "Agriculture",
+    desc: "Farms, ranches, nurseries, packing and processing operations, agricultural contractors, and agribusiness of all kinds. We place general liability, commercial property, farm owners, workers' compensation for agricultural payrolls, commercial auto for farm equipment and fleets, and product liability for operations that grow, process, or distribute food. Including accounts with seasonal workforce complexity and multi-state exposure.",
+  },
 ];
 
 export const FILTERS = [
@@ -99,6 +104,7 @@ export const FILTERS = [
   "Transportation",
   "Professional",
   "Public Entities",
+  "Agriculture",
 ];
 
 export type ArticleBlock =
