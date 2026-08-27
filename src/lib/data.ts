@@ -303,7 +303,7 @@ export const ARTICLES: Article[] = [
     body: [
       {
         type: "p",
-        text: "The moment your account lands on an underwriter's desk, someone starts forming an opinion — usually from an experience mod number, a loss run, and whatever assumptions fill the gaps. If nobody's filling those gaps on your behalf, the underwriter fills them, and underwriters fill gaps conservatively. A loss run doesn't explain that your worst year was a one-time growth spike. An experience mod doesn't know that the year dragging it up is about to roll off — replaced by cleaner ones. A broker who shows that trajectory gives an underwriter a reason to write the account, not walk from it. So we write the part that's missing.",
+        text: "The moment your account lands on an underwriter's desk, someone starts forming an opinion — usually from an experience mod number, a loss run, and whatever assumptions fill the gaps. If nobody's filling those gaps on your behalf, the underwriter fills them, and underwriters fill gaps conservatively. A loss run doesn't explain that your worst year was a one-time growth spike. An experience mod doesn't know that the year dragging it up is about to roll off — replaced by a cleaner one. A broker who shows that trajectory gives an underwriter a reason to write the account, not walk from it. So we write the part that's missing.",
       },
       { type: "h2", text: "The narrative gap is where accounts get declined" },
       {
