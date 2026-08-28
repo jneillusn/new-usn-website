@@ -296,7 +296,7 @@ export const ARTICLES: Article[] = [
   {
     title: "Why We Build a Submission Summary, Not Just a Submission",
     summary:
-      "Most agents send underwriting loss runs and an application and call it a day. We build the narrative first — because how an underwriter hears about your risk determines how they price it.",
+      "An underwriter who has to ask a question has already started leaning toward no. We answer the questions before they're asked.",
     cat: "Broker Insight",
     date: "Aug 2026",
     slug: "submission-summary",
