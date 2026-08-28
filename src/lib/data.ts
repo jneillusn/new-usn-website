@@ -296,53 +296,53 @@ export const ARTICLES: Article[] = [
   {
     title: "Why We Build a Submission Summary, Not Just a Submission",
     summary:
-      "Most agents send underwriting a loss run and an application and call it a submission. We build the narrative first — because how an underwriter hears about your risk determines how they price it.",
+      "Most agents send underwriting loss runs and an application and call it a day. We build the narrative first — because how an underwriter hears about your risk determines how they price it.",
     cat: "Broker Insight",
     date: "Aug 2026",
     slug: "submission-summary",
     body: [
       {
         type: "p",
-        text: "The moment your account lands on an underwriter's desk, someone starts forming an opinion — usually from an experience mod number, a loss run, and whatever assumptions fill the gaps. If nobody's filling those gaps on your behalf, the underwriter fills them, and underwriters fill gaps conservatively. A loss run doesn't explain that your worst year was a one-time growth spike. An experience mod doesn't know that the year dragging it up is about to roll off — replaced by a cleaner one. A broker who shows that trajectory gives an underwriter a reason to write the account, not walk from it. So we write the part that's missing.",
+        text: "Here's the reality: the second your account hits an underwriter's desk, they're forming an opinion. It's coming from an experience mod, loss runs, and whatever gaps their imagination fills in — and underwriters fill gaps conservatively. Loss runs don't tell them your worst year was a one-time growth spike. A mod doesn't explain that the bad year dragging it up is about to roll off for a clean one. If nobody's in that gap making the case for you, the account gets priced like the worst version of itself.",
       },
-      { type: "h2", text: "The narrative gap is where accounts get declined" },
+      { type: "h2", text: "The gap is where accounts get declined" },
       {
         type: "p",
-        text: "Underwriters see hundreds of submissions. They're triaging, not investigating. If a file raises a question they can't quickly answer, the fastest resolution is often the least favorable one for you — a decline, a heavy surcharge, or a \"needs more information\" that sits in a queue while a cleaner-looking file gets quoted first.",
-      },
-      {
-        type: "p",
-        text: "Every account has a handful of things a skeptical underwriter will flag on sight: a spike year in the loss history, a mod that looks like it's climbing, a large open claim with a scary reserve, a class code with a bad industry reputation regardless of how this employer actually runs. We know that list before underwriting does — so instead of leaving those questions for them to raise and answer unfavorably by default, we raise them ourselves, with the answer already attached.",
-      },
-      { type: "h2", text: "What actually goes into a submission summary" },
-      {
-        type: "p",
-        text: "The exact shape depends on the account, but the pattern holds across industries — public entities, nonprofits, industrial contractors, security firms, it doesn't matter:",
+        text: "Underwriters aren't investigating your file — they're triaging it, along with a couple hundred others that week. If something raises a question they can't answer in thirty seconds, the easy move is the unfavorable one: decline it, surcharge it, or park it in a \"need more info\" queue while a cleaner-looking submission gets quoted first.",
       },
       {
         type: "p",
-        text: "We separate the account from its worst year. If one bad year is dragging a three-year average down, we don't let it stand alone as \"the story.\" We show the trend — what changed and what the trajectory looks like since. A 47-claim year next to a 22-claim year annualizing to a third of the prior cost tells a different story than either number alone.",
+        text: "Every account we write has a few things a skeptical underwriter is going to flag on sight — a spike year, a mod trending the wrong direction, a big open reserve, a class code with a bad reputation regardless of how this particular business actually runs. We already know what those flags are going to be. So we get to them first, in writing, answer attached — instead of letting underwriting raise the question and answer it themselves.",
+      },
+      { type: "h2", text: "What's actually in one of these" },
+      {
+        type: "p",
+        text: "The shape changes account to account, but the approach doesn't — public entity, nonprofit, contractor, security firm, doesn't matter:",
       },
       {
         type: "p",
-        text: "We separate the claim from the reserve. A $50,000 open reserve reads as a $50,000 loss to anyone skimming a loss run. Often it isn't — it's a conservative adjuster estimate on a claim trending toward resolution, or a reserve inflated by attorney involvement rather than medical severity. We say so, so the underwriter prices the actual exposure instead of the worst-case number in the file.",
+        text: "We don't let the worst year speak for the whole account. If one bad year is skewing a three-year average, we show the trend instead — what happened, what changed, and where it's headed since. A 47-claim year next to a 22-claim year that annualizes to a third of the cost tells a completely different story than either number sitting alone.",
       },
       {
         type: "p",
-        text: "We show our math on the mod — including when it's about to go up. If a mod will increase next term because a clean year is rolling off, we don't hide that. We explain it and reframe it: the carrier that writes this account now is buying a demonstrably improving risk, not a reason to walk away. Underwriters respect a broker who shows them the number first.",
+        text: "We separate the claim from the reserve. A $50,000 open reserve reads as a $50,000 loss to anyone just skimming the loss runs. Most of the time it isn't — it's a conservative number on a claim that's trending toward resolution, or it's inflated by an attorney getting involved, not by the actual medical severity. We say so, so underwriting is pricing what the claim is actually worth, not the scariest number on the page.",
       },
       {
         type: "p",
-        text: "We put safety and corrective action in writing, with names attached. \"Client has a safety program\" means nothing. \"The operations manager instituted mandatory de-escalation training targeting the exact loss pattern shown on page two\" means something. Specificity is what separates a real risk story from a box checked on an application.",
+        text: "We show our math on the mod — even when it's about to go up. If a mod's climbing next term because a clean year is rolling off, we're not going to pretend that's not happening. We explain it and flip it: a carrier writing this account now is buying a risk that's demonstrably getting better, not a reason to pass. Underwriters respect being shown the number before they have to go dig for it.",
       },
       {
         type: "p",
-        text: "We close with a direct ask. Every summary ends with an underwriter brief — a short list stating plainly what we think this account deserves and why, backed by everything on the pages before it.",
+        text: "We put the safety story in writing, with names on it. \"Client has a safety program\" doesn't move anyone. \"The ops manager rolled out mandatory de-escalation training aimed directly at the loss pattern on page two\" does. Specifics are what make it real instead of a checkbox.",
       },
-      { type: "h2", text: "Why this matters more than people think" },
       {
         type: "p",
-        text: "An underwriter who has to ask a clarifying question has already started leaning toward \"pass.\" A submission summary doesn't eliminate scrutiny — it makes sure the scrutiny happens on complete information instead of a bare number missing its context. It's slower and more work than sending a loss run and an ACORD form, but the accounts that get this treatment consistently see fewer declines, fewer surcharges that don't reflect the real risk, and underwriters who remember them favorably at the next renewal instead of squinting at them fresh every year. If your renewal has ever felt like an uphill fight even though nothing changed on your end, there's a decent chance nobody told your side of the story before the number did the talking for you.",
+        text: "And we close by just saying what we think. Every summary ends with an underwriter brief — a short list telling them plainly what we think this account deserves and why, backed by everything above it.",
+      },
+      { type: "h2", text: "Why it's worth the extra work" },
+      {
+        type: "p",
+        text: "An underwriter who has to stop and ask a question has already started leaning toward no. This doesn't get you out of scrutiny — it just makes sure that scrutiny is happening on the real picture instead of a number with no context behind it. It's more work than firing off loss runs and an ACORD form, but the accounts we do this for get fewer declines, fewer surcharges that don't match the actual risk, and underwriters who remember them well at the next renewal instead of starting from scratch. If your renewal's ever felt like an uphill fight for no good reason, there's a decent chance nobody told your side of it before the number did the talking.",
       },
     ],
   },
