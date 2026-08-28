@@ -314,7 +314,7 @@ export const ARTICLES: Article[] = [
         type: "p",
         text: "Every account we write has a few things a skeptical underwriter is going to flag on sight — a spike year, a mod trending the wrong direction, a big open reserve, a class code with a bad reputation regardless of how this particular business actually runs. We already know what those flags are going to be. So we get to them first, in writing, answer attached — instead of letting underwriting raise the question and answer it themselves.",
       },
-      { type: "h2", text: "What's actually in one of these" },
+      { type: "h2", text: "Inside the summary" },
       {
         type: "p",
         text: "The shape changes account to account, but the approach doesn't — public entity, nonprofit, contractor, security firm, doesn't matter:",
